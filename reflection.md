@@ -16,4 +16,4 @@ states.keys / states.values
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
 If we were writing out coordinates to find buried treasure. An array may have an order, but with a hash you can assign paired values to latitude, longitude, elevation, etc
 1. What questions do you still have about hashes?
-Why do they make my brain hurt?
+Why do they make my brain hurt? :(

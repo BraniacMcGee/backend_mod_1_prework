@@ -27,7 +27,7 @@ p zoo.values_at('monkeys')
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
 # YOUR CODE HERE
-zoo = zoo.merge({'rhinos' => 3})
+zoo = zoo.merge({'rhinos' => 4})
 p zoo
 
 

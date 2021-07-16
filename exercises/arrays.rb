@@ -66,7 +66,7 @@ print foods
 # YOU DO: Write code to add 3 new foods to the array.
   # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
-foods[4..6] = "cereal", "pasta", "salad"
+foods[4..6] = "soup", "pasta", "salad"
 print foods
 # YOU DO: Remove the food that is in index position 0.
 foods.delete("wings")
