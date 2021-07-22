@@ -8,7 +8,7 @@ I could likely do a better job on setting SMART goals as opposed to just shootin
 1. What is a Hash, and how is it different from an Array?
 An array is an ordered list of objects, a Hash is a list associating pairs of things
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
-pet_store = {'dog_food_bags' => 500, 'fish_tanks' => 40, turtles => 15}
+`pet_store = {'dog_food_bags' => 500, 'fish_tanks' => 40, turtles => 15}`
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 puts states[IA]
 1. With the same hash above, how would we get all the keys?  How about all the values?
