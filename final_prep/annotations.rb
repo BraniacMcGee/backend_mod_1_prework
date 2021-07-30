@@ -29,20 +29,27 @@ build_a_bear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')
 
 
 # FizzBuzz
-
+#defines fizzbuzz, assigns numbers and range in which to count
 def fizzbuzz(num_1, num_2, range)
   (1..range).each do |i|
     if i % num_1 === 0 && i % num_2 === 0
+#returns 'fizzbuzz' if both numbers in counter divided by given equals 0
+#with possible remainder (BOTH MUST BE TRUE)
       puts 'fizzbuzz'
     elsif i % num_1 === 0
+#returns 'fizz' if number in counter divided by first given equals 0
+#with possible remainder
       puts 'fizz'
     elsif i % num_2 === 0
+#returns 'buzz' if number in counter divided by second given equals 0
+#with possible remainder
       puts 'buzz'
     else
       puts i
     end
   end
 end
-
+#first given = number_1, second given = number_2, number counter will go
+#to starting at 1
 fizzbuzz(3, 5, 100)
 fizzbuzz(5, 8, 400)
