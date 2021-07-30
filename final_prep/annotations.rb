@@ -49,7 +49,7 @@ def fizzbuzz(num_1, num_2, range)
     end
   end
 end
-#first given = number_1, second given = number_2, number counter will go
+#first given = number_1, second given = number_2, counter will go
 #to starting at 1
 fizzbuzz(3, 5, 100)
 fizzbuzz(5, 8, 400)
