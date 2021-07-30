@@ -21,7 +21,7 @@ def remove_topping
   end
 
 def change_protein
-  protein = "Pollo Adobo"
+@protein = "Pollo Adobo"
   end
 end
 
